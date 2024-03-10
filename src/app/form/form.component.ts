@@ -17,7 +17,7 @@ export class FormComponent {
   submitForm() {
     this.isLoading = true; // Show loading symbol when submitting
     const requestData = {
-      uuid: '1a406cfc-e0f6-4b4b-82fb-2b3f7caf54ef',
+      uuid: '4f3bd817-5ea8-461c-832e-768ffa399a6b',
       text: this.inputParameter,
     };
 
