@@ -5,7 +5,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root',
 })
 export class ApiService {
-  private apiUrl = 'https://urlrakshak-0-0-4.onrender.com/fake/detect?api_key=test';
+  private apiUrl = 'https://safeurldeployment.onrender.com/fake/detect?api_key=test';
 
   constructor(private http: HttpClient) {}
 
